@@ -11,11 +11,36 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News Page</title>
+    <link rel="stylesheet" href="/styling/style.css">
+    <link rel="stylesheet" href="/styling/flex.css">
+    <!--link rel="stylesheet" href="/styling/grid.css"-->
+    <title>FASHÖÖN</title>
+    Comment: link till styles, div php-filer.
 </head>
+<main>
+    <header>
+        <h3>FASHÖÖN</h3>
+        <nav></nav>
+        <button aria-label="Open menu"> BURGER ICON </button>
+    </header>
+    <body>
+    <section class="grid-container"> <!-- Använda article ist för div nedan?-->
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
 
-<body>
+    </body>
+</main>
 
-</body>
+<footer>
 
+</footer>
 </html>
