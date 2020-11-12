@@ -13,6 +13,7 @@ $authors = [
 $news1 =
     [
         'title' => 'CUFFING SEASON',
+        'image' => '/images/girlfriend.png',
         'content' => 'THE HOTTEST ACCESSORY: THE GIRLFRIEND',
         'author' => $authors[0]['name'],
         'published date' => 201109,
@@ -23,6 +24,7 @@ $news1 =
 $news2 =
     [
         'title' => 'OOTD: A/W IS CANCELLED',
+        'image' => '/images/group-weird.png',
         'content' => 'Just make it weird, no one will see you anyway',
         'author' => $authors[0]['name'],
         'published date' => 201028,
@@ -32,6 +34,7 @@ $news2 =
 $news3 =
     [
         'title' => 'NEW STARS OF THE CATWALK',
+        'image' => '/images/cat.jpg',
         'content' => 'Their talent will make you PURR',
         'author' => $authors[1]['name'],
         'published-date' => 201016,
@@ -41,6 +44,7 @@ $news3 =
 $news4 =
     [
         'title' => 'HIPSTER OR HOMELESS?',
+        'image' => '/images/hipster-homeless.jpeg',
         'content' => 'Has "to make the poor look rich and the rich look poor" gone too far',
         'author' => $authors[2]['name'],
         'published date' => 201002,
@@ -50,6 +54,7 @@ $news4 =
 $news5 =
     [
         'title' => '#VALIDFASHION',
+        'image' => '/images/denim-belt.jpg',
         'content' => 'This is hot now and there is nothing you can do about it',
         'author' => $authors[4]['name'],
         'published date' => 200906,
@@ -59,6 +64,7 @@ $news5 =
 $news6 =
     [
         'title' => 'OM KRIGET KOMMER',
+        'image' => '/images/camo-dress.jpg',
         'content' => '"Don\'t dress to kill, dress to survive"',
         'author' => $authors[2]['name'],
         'published date' => 201102,
@@ -68,6 +74,7 @@ $news6 =
 $news7 =
     [
         'title' => '"I was the first person to have a punk rock hairstyle"',
+        'image' => '/images/punk.jpg',
         'content' => 'Rebel ipsum dolor sit amet, consectetur adipiscing elit',
         'author' => $authors[1]['name'],
         'published date' => 201016,
@@ -77,6 +84,7 @@ $news7 =
 $news8 =
     [
         'title' => '"I DON\'T LIKE TRENDS"',
+        'image' => '/images/trend-No_Thanks_1200x1200.png',
         'content' => 'They tend to make everybody look the same',
         'author' => $authors[3]['name'],
         'published date' => 200926,
