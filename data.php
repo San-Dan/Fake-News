@@ -17,7 +17,7 @@ $newsPosts = [
         'alt text' => 'Two women in black dresses, holding eachother',
         'content' => 'THE HOTTEST ACCESSORY: THE GIRLFRIEND',
         'author' => $authors[0]['name'],
-        'published date' => '20/11/09',
+        'date' => '20/11/09',
         'likecounter' => 899,
     ],
 
