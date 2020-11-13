@@ -20,11 +20,6 @@ body {
 	font-family: sans-serif;
 	font-size: small;
 }
-section {
-	display: flex;
-	margin-top: 100px;
-display: flex;
-}
 
 .flex-container {
 	display: flex;
@@ -33,13 +28,19 @@ display: flex;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
+	margin-top: 100px;
 	}
 
-div
+	.article {
+
+
+	}
+
+	div
 {
 	background-color: blueviolet;
-	height: 300px;
-	width: 300px;
+	height: 30px;
+	width: 30px;
 	margin: 20px;
 
 }

@@ -15,29 +15,23 @@ require __DIR__ . "/functions.php";
     <!--link rel="stylesheet" href="/styling/grid.css"-->
     <title>FASHÖÖN</title>
 </head>
-    <body>
+
+<body>
     <header>
         <h1>FASHÖÖN</h1>
     </header>
 
     <main>
+        <section class="flex-container">
+            <?php foreach (sortDate($newsPosts) as $newsPost) ?>
+            <div class="article">
+                <div> </div>
+                <div> </div>
+                <div> </div>
+            </div>
+        </section>
 
-    <section class="flex-container">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </section>
-
-</main>
+    </main>
 </body>
-<footer>
 
-</footer>
 </html>

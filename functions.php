@@ -6,5 +6,10 @@ require __DIR__ . ('/data.php');
 // This is the file where you can keep all your functions. Remember to NOT
 // execute/run any functions in this file. Keep it dumb.
 
-//function
-//sortbydate(array $)
+function sortDate(array $newsPosts): array
+{
+    $newsPosts, function ($a, $b) {
+        return $b["published date"] <=> $a["published date"];
+    });
+    return $sortByDate;
+}
