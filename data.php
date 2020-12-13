@@ -22,7 +22,7 @@ $newsPosts = [
     ],
 
 
- /*   [
+    [
         'title' => 'OOTD: A/W IS CANCELLED',
         'image' => '/images/group-weird.png',
         'alt text' => 'People in colorful clothes and draped in plastic',
@@ -32,7 +32,7 @@ $newsPosts = [
         'likecounter' => 33,
     ],
 
-
+/*
     [
         'title' => 'NEW STARS OF THE CATWALK',
         'image' => '/images/cat.jpg',
