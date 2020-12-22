@@ -26,11 +26,12 @@ require __DIR__ . "/functions.php";
         <section class="flex-container">
             <?php foreach ($newsPosts as $newsPost) : ?>
         <article>
-            <img class="postImg" src="<?php echo $newsPost['image']; ?>">
-            <div>
-                <h3> <?php echo $newsPost['title']; ?> </h3>
-                <p> <?php echo $newsPost['published date'] . ", " . $newsPost['author']; ?> </p>
-                <p> <?php echo $newsPost['content']; ?> </p>
+            <img src="<?php echo $newsPost['image']; ?>" alt="<?php echo $newsPost['alt text']; ?>">
+            <div class="postText">
+                <h3 class="heading"> <?php echo $newsPost['title']; ?> </h3>
+                <p class="dateAuthor"> <?php echo $newsPost['published date'] . ", " . $newsPost['author']; ?> </p>
+                <p class="content"> <?php echo $newsPost['content']; ?> </p>
+                <p class="likeNum"> <?php echo $newsPost['likecounter']; ?> </p>
             </div>
             </article>
             <?php endforeach; ?>

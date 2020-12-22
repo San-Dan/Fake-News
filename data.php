@@ -17,7 +17,7 @@ $newsPosts = [
         'title' => 'CUFFING SEASON',
         'image' => 'images\girlfriend.png',
         'alt text' => 'Two women in black dresses, holding eachother',
-        'content' => 'THE HOTTEST ACCESSORY: THE GIRLFRIEND',
+        'content' => 'The hottest accessory: THE GIRLFRIEND',
         'author' => $authors[0]['name'],
         'published date' => '20/11/09',
         'likecounter' => 899,
@@ -42,7 +42,7 @@ $newsPosts = [
         'content' => 'Their talent will make you PURR',
         'author' => $authors[1]['name'],
         'published date' => '20/10/16',
-        'like-counter' => 44,
+        'likecounter' => 44,
     ],
 
 
@@ -50,7 +50,7 @@ $newsPosts = [
         'title' => 'HIPSTER OR HOMELESS?',
         'image' => 'images\hipster-homeless.jpeg',
         'alt text' => 'Four men dressed in hipster style, or homeless?',
-        'content' => 'Has "to make the poor look rich and the rich look poor" gone too far',
+        'content' => 'Has "to make the poor look rich and the rich look poor" gone too far?',
         'author' => $authors[2]['name'],
         'published date' => '20/10/02',
         'likecounter' => 1337,
@@ -80,7 +80,7 @@ $newsPosts = [
 
 
     [
-        'title' => '"I was the first person to have a punk rock hairstyle"',
+        'title' => '"I was the first to have a punk rock hairstyle"',
         'image' => 'images\punk.jpg',
         'alt text' => 'Cat with purple punk hair',
         'content' => 'Rebel ipsum dolor sit amet, consectetur adipiscing elit',
