@@ -25,15 +25,14 @@ require __DIR__ . "/functions.php";
     <main>
         <section class="flex-container">
             <?php foreach ($newsPosts as $newsPost) : ?>
-                <!-- Raden nedan gör ingen skillnad nu-->
-            <?php $a = $newsPost['published date']; ?>
-
-            <img class="postImg" src="<?php $newsPost['image']; ?>">
+        <article>
+            <img class="postImg" src="<?php echo $newsPost['image']; ?>">
             <div>
-                <h3> <?php $newsPost['title']; ?> </h3>
-                <p> <?php $newsPost['published date']; ?> </p>
-                <p> <?php $newsPost['content']; ?> </p>
+                <h3> <?php echo $newsPost['title']; ?> </h3>
+                <p> <?php echo $newsPost['published date'] . ", " . $newsPost['author']; ?> </p>
+                <p> <?php echo $newsPost['content']; ?> </p>
             </div>
+            </article>
             <?php endforeach; ?>
         </section>
 
