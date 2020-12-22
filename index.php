@@ -4,6 +4,7 @@ require __DIR__ . "/data.php";
 require __DIR__ . "/functions.php";
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,15 +24,19 @@ require __DIR__ . "/functions.php";
 
     <main>
         <section class="flex-container">
-            <?php foreach (sortDate($newsPosts) as $newsPost) ?>
-            <div class="article">
-                <div> </div>
-                <div> </div>
-                <div> </div>
+            <?php foreach ($newsPosts as $newsPost) : ?>
+                <!-- Raden nedan gör ingen skillnad nu-->
+            <?php $a = $newsPost['published date']; ?>
+
+            <img class="postImg" src="<?php $newsPost['image']; ?>">
+            <div>
+                <h3> <?php $newsPost['title']; ?> </h3>
+                <p> <?php $newsPost['published date']; ?> </p>
+                <p> <?php $newsPost['content']; ?> </p>
             </div>
+            <?php endforeach; ?>
         </section>
 
     </main>
 </body>
-
 </html>
