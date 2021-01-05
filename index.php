@@ -17,7 +17,7 @@ require __DIR__ . "/functions.php";
     <header>
         <h1>FASHÖÖN</h1>
         <nav>
-            <a href="x">HOME</a>
+            <a href="x">Home</a>
             <a href="x">About</a>
             <a href="x">Contact</a>
         </nav>
