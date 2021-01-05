@@ -7,5 +7,4 @@ function sortByDate($newsPosts){
     $postDate = array_column($newsPosts, "published date");
     array_multisort($postDate, SORT_DESC, $newsPosts);
     return $newsPosts;
-
 }
