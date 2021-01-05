@@ -3,7 +3,7 @@
 	box-sizing: border-box;
 	margin: 0;
 }
-
+/* HEADER CONTENT ----------------------------------------------*/
 header {
 background-color: rgba(216, 205, 183, 1);
 text-align: center;
@@ -32,6 +32,7 @@ a:hover {
   color: rgb(148, 126, 98);
 }
 
+/* MAIN CONTENT -------------------------------------------*/
 body {
 	background-color: rgba(247, 247, 248, 1);
 	font-family: sans-serif;
@@ -94,6 +95,7 @@ body {
   width: 18px;
 }
 
+/* FOOTER CONTENT -----------------------------------------*/
 footer {
   background-color: rgba(216, 205, 183, 1);
   text-align: center;

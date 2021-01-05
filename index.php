@@ -7,14 +7,12 @@ require __DIR__ . "/functions.php";
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styling/style.css">
     <title>FASHÖÖN</title>
 </head>
-
 <body>
     <header>
         <h1>FASHÖÖN</h1>
@@ -24,7 +22,6 @@ require __DIR__ . "/functions.php";
             <a href="x">Contact</a>
         </nav>
     </header>
-
     <main>
         <section class="flex-container">
             <?php $newsPosts = sortByDate($newsPosts);
@@ -37,13 +34,13 @@ require __DIR__ . "/functions.php";
                 <p class="content"> <?php echo $newsPost['content']; ?> </p>
                 <p class="likeNum"> <img src="images\heart-icon.png" class="heart"> <?php echo $newsPost['likecounter']; ?> </p>
             </div>
-            </article>
+        </article>
             <?php endforeach; ?>
         </section>
     </main>
     <footer>
         <h3>Stay up to date with us on social media</h3>
-        <nav >
+        <nav>
             <a href="x">FACEBOOK</a>
             <a href="x">INSTAGRAM</a>
             <a href="x">LOOKBOOK</a>
